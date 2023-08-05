@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MySecondApp';
+  coloer = ['red', 'blue','green','yalow']
+  name= "motaz";
+  lastName = "allala";
+  ss='https://picsum.photos/seed/picsum/500/300';
+
+  myFun(){
+    console.log("this is test");
+    alert("this is test");
+  }
+  onChange(){
+    alert("test");
+  }
 }
