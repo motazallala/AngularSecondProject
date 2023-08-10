@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ContainerComponent {
   listOfString :string[] = ["motaz",'sami','ahmad','ali']
+
+  searchText: string = '';
+  fromSearchBox(searchValue: string){
+    this.searchText = searchValue;
+  }
 }
